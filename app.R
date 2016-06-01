@@ -51,6 +51,7 @@ ui <- fluidPage(
                        "Agilent V6 exome (60 Mb)" = 60e6,
                        "S. cerevisiae (12.2 Mb)" = 12157105,
                        "E. coli K-12 (4.6 Mb)" = 	4641652,
+                       "V. vinifera L. (486 Mb" = 486175922,
                        "Other (Enter manually)"=""),
                      selected=3096649726),
 
