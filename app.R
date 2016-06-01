@@ -23,6 +23,8 @@ ui <- fluidPage(
 
    HTML("<p>Written by <a href='http://stephenturner.us', target='blank'>Stephen Turner</a>, based on the <a href='http://www.ncbi.nlm.nih.gov/pubmed/3294162' target='_blank'>Lander-Waterman formula</a>, inspired by <a href='http://core-genomics.blogspot.com/2016/05/how-many-reads-to-sequence-genome.html' target='_blank'>a similar calculator</a> written by James Hadfield. Coverage is calculated as <em>C=LN/G</em> and reads as <em>N=CG/L</em> where <em>C</em> = Coverage (X), <em>L</em> = Read length (bp), <em>G</em> = Haploid genome size (bp), and <em>N</em> = Number of reads. Source code <a href='https://github.com/stephenturner/covcalc' target='_blank'>on GitHub</a>.</p>"),
 
+   HTML("<p>Modified by <a href='https://github.com/rghan', target='blank'>Ryan Ghan</a> to add the grapevine genome, <em>Vitis vinifera</em> L., found at <a href='http://plants.ensembl.org/Vitis_vinifera/Info/Annotation/' target='blank'>EnsemblePlants</a>.</p>"),
+
    # HTML("<p>Written by <a href='http://stephenturner.us', target='blank'>Stephen Turner</a>, based on the <a href='http://www.ncbi.nlm.nih.gov/pubmed/3294162' target='_blank'>Lander-Waterman formula</a>, inspired by <a href='http://core-genomics.blogspot.com/2016/05/how-many-reads-to-sequence-genome.html' target='_blank'>a similar calculator</a> written by James Hadfield.</p><p>Coverage is calculated as <em>C=LN/G</em> and reads as <em>N=CG/L</em> where
    #        <ul>
    #          <li><em>C</em> = Coverage (X)</li>
